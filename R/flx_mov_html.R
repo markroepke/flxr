@@ -25,7 +25,7 @@ flx_mov_html <- function(movie = NULL){
     .[1,2] + 1
 
   url_end <- top_result %>%
-    stringr::str_sub(url_beg, str_length(.)) %>%
+    stringr::str_sub(url_beg, stringr::str_length(.)) %>%
     stringr::str_locate("\"") %>%
     .[1,1] - 2 + url_beg
 
