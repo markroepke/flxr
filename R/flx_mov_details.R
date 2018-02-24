@@ -10,7 +10,7 @@ flx_mov_details <- function(movie){
 
   movie_html <- flx_mov_html(movie)
 
-  mov_details <- tibble(
+  mov_details <- tibble::tibble(
     movie = flx_mov_name(movie),
     description = flx_mov_desc(movie_html),
     genre = flx_mov_genre(movie_html),
