@@ -22,7 +22,7 @@ flx_mov_desc <- function(movie = NULL){
     stringr::str_replace_all("\n", "") %>%
     stringr::str_trim()
 
-  if (as.character(movie)){
+  if (is.character(movie)){
     message(stringr::str_c("Returning movie description for ", flx_mov_name(movie), ":"))
   }
 
