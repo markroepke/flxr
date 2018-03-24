@@ -4,8 +4,8 @@ Title: Scrape Movie Data
 Author: Mark Roepke [aut, cre]
 Maintainer: Mark Roepke <mroepke5@gmail.com>
 Description: This package scrapes basic data about movies
-Depends: R (>= 3.1.0)
-Imports: stringr, rvest, purrr, xml2, tibble, magrittr
+Depends: R (>= 3.4.0), magrittr (>= 1.5)
+Imports: stringr, rvest, purrr, xml2, tibble
 License: GPL (>= 2)
 URL: https://www.github.com/markroepke/flxr
 BugReports: BugReports: https://github.com/markroepke/flxr/issues
