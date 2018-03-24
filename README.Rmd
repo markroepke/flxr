@@ -4,12 +4,22 @@ output:
     variant: markdown_github
 ---
 
+```{r echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
 # flxr: An R package for scraping movie data <img src="tools/flxr.png" align="right" width="120" height="139" />
 
 This package allows users to easily scrape movie data from the internet. By only supplying a movie title, users can currently retrieve the movie description, director, lead cast, genre, runtime, IMDB user rating, and Metacritic rating. The package can currently be installed using the following code:
 
-```{r}
+```{r eval = FALSE}
 devtools::install_github("markroepke/flxr")
+```
+
+```{r echo = FALSE}
 library(flxr)
 ```
 
@@ -20,7 +30,16 @@ Here is an example of `flxr` in use:
 flx_mov_director("The Godfather")
 ```
 
-There is also broad function, `flx_mov_details()` for easily pulling all movie information.
+The other functions in `flxr` are:
+
+* `flx_mov_desc()`
+* `flx_mov_genre()`
+* `flx_mov_lead_cast()`
+* `flx_mov_mc_rtg()`
+* `flx_mov_runtime()`
+* `flx_mov_user_rtg()`
+
+There is also wrapper function, `flx_mov_details()`, to easily run all `flxr` functions:
 
 ```{r}
 # Get movie information
