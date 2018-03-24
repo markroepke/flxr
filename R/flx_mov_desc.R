@@ -1,5 +1,6 @@
 #' Get the description of a movie
 #'
+#' @importFrom magrittr "%>%"
 #' @param movie The name of a movie as a character string or an XML document representing the HTML of of a movie page
 #' @return A character string of the description of the movie.
 #' @examples

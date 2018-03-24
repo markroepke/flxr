@@ -1,5 +1,6 @@
 #' Get the Metacritic rating of a movie
 #'
+#' @importFrom magrittr "%>%"
 #' @param movie The name of a movie as a character string or an XML document representing the HTML of of a movie page
 #' @return A numeric vector of length one. The Metacritic rating of the movie.
 #' @examples

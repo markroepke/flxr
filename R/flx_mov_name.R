@@ -1,5 +1,6 @@
 #' Get the movie name matched to the input character string
 #'
+#' @importFrom magrittr "%>%"
 #' @param movie The name of a movie as a character string.
 #' @return A character string of the movie matched to the input.
 #' @examples

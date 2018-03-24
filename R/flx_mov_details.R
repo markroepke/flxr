@@ -1,5 +1,6 @@
 #' Get a variety of movie details
 #'
+#' @importFrom magrittr "%>%"
 #' @param movie The name of a movie as a character string or an XML document representing the HTML of of a movie page
 #' @return A tibble with 8 columns and 1 row containing the movie name, description, genre, director, lead cast, runtime, user rating, and Metacritic rating.
 #' @examples
