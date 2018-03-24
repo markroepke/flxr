@@ -6,6 +6,7 @@ Maintainer: Mark Roepke <mroepke5@gmail.com>
 Description: This package scrapes basic data about movies
 Depends: R (>= 3.1.0)
 Imports: stringr, rvest, purrr, xml2, tibble, magrittr
+License: GPL (>= 2)
 URL: https://www.github.com/markroepke/flxr
 BugReports: BugReports: https://github.com/markroepke/flxr/issues
 RoxygenNote: 6.0.1
