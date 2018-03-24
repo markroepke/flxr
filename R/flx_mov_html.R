@@ -3,6 +3,7 @@
 #' @importFrom magrittr "%>%"
 #' @param movie The name of a movie as a character string.
 #' @return An XML document representing the HTML of the movie page.
+#' @export
 #' @examples
 #' flx_mov_html(movie = "The Godfather")
 
