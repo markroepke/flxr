@@ -1,6 +1,8 @@
 flxr: An R package for scraping movie data <img src="tools/flxr.png" align="right" width="120" height="139" />
 ==============================================================================================================
 
+[![Build Status](https://travis-ci.org/markroepke/flxr.svg?branch=master)](https://travis-ci.org/markroepke/flxr)
+
 This package allows users to easily scrape movie data from the internet. By only supplying a movie title, users can currently retrieve the movie description, director, lead cast, genre, runtime, IMDB user rating, and Metacritic rating. The package can currently be installed using the following code:
 
 ``` r
