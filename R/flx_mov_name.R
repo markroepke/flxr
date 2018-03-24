@@ -4,7 +4,7 @@
 #' @param movie The name of a movie as a character string.
 #' @return A character string of the movie matched to the input.
 #' @examples
-#' .flx_mov_name(movie = "The Godfather")
+#' flx_mov_name(movie = "The Godfather")
 
 flx_mov_name <- function(movie = NULL){
 

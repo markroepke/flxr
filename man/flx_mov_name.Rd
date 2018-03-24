@@ -16,5 +16,5 @@ A character string of the movie matched to the input.
 Get the movie name matched to the input character string
 }
 \examples{
-.flx_mov_name(movie = "The Godfather")
+flx_mov_name(movie = "The Godfather")
 }
