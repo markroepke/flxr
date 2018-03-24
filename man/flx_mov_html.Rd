@@ -16,5 +16,5 @@ An XML document representing the HTML of the movie page.
 Get HTML for a movie page
 }
 \examples{
-.flx_mov_html(movie = "The Godfather")
+flx_mov_html(movie = "The Godfather")
 }

@@ -4,7 +4,7 @@
 #' @param movie The name of a movie as a character string.
 #' @return An XML document representing the HTML of the movie page.
 #' @examples
-#' .flx_mov_html(movie = "The Godfather")
+#' flx_mov_html(movie = "The Godfather")
 
 flx_mov_html <- function(movie = NULL){
 
